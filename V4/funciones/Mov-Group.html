@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>Mov-Group</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Login</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://demo-july-sprint.movielearningv4.app.keetup.com/discover<datalist><option>http://demo-july-sprint.movielearningv4.app.keetup.com/discover</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Sign in or Sign up<datalist><option>link=Sign in or Sign up</option><option>css=a.navigation-text-link.navigation-text-link-login.ng-binding.ng-scope</option><option>//a[contains(text(),'Sign in or Sign up')]</option><option>//div[@id='root']/div/nav/a</option><option>//nav/a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=email<datalist><option>name=email</option><option>css=input[name="email"]</option><option>//input[@name='email']</option><option>//input</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=email<datalist><option>name=email</option><option>css=input[name="email"]</option><option>//input[@name='email']</option><option>//input</option></datalist></td><td>lmilitello+@keetup.com</td>
+</tr>
+<tr><td>click</td><td>name=password<datalist><option>name=password</option><option>css=input[name="password"]</option><option>//input[@name='password']</option><option>//div[2]/input</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=password<datalist><option>name=password</option><option>css=input[name="password"]</option><option>//input[@name='password']</option><option>//div[2]/input</option></datalist></td><td>crimin9U</td>
+</tr>
+<tr><td>click</td><td>css=button.button.button--user-account-base<datalist><option>css=button.button.button--user-account-base</option><option>//button[@type='submit']</option><option>//button</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Groups<datalist><option>link=Groups</option><option>css=a.navigation-text-link.ng-binding.ng-scope</option><option>//a[contains(text(),'Groups')]</option><option>//div[@id='root']/div/nav/div[2]/a[2]</option><option>//a[contains(@href, '/groups')]</option><option>//nav/div[2]/a[2]</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Comment-Activity</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://demo-july-sprint.movielearningv4.app.keetup.com/groups/318/activity<datalist><option>http://demo-july-sprint.movielearningv4.app.keetup.com/groups/318/activity</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Activity<datalist><option>link=Activity</option><option>css=a.ng-binding.active</option><option>//a[contains(text(),'Activity')]</option><option>//div[@id='main']/div[2]/div[2]/div/a</option><option>//div[2]/div[2]/div/a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=comment<datalist><option>name=comment</option><option>css=input[name="comment"]</option><option>//input[@name='comment']</option><option>//form[@id='commentFormId']/div/input</option><option>//form/div/input</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=comment<datalist><option>name=comment</option><option>css=input[name="comment"]</option><option>//input[@name='comment']</option><option>//form[@id='commentFormId']/div/input</option><option>//form/div/input</option></datalist></td><td>hi! is a automatic comment </td>
+</tr>
+<tr><td>click</td><td>css=button.button.button--success.nm<datalist><option>css=button.button.button--success.nm</option><option>//button[@type='submit']</option><option>//form[@id='commentFormId']/div[2]/button</option><option>//button</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyElementPresent</td><td>css=div.cg-notify-message.ng-scope.notification--success.cg-notify-message-center &gt; div.ng-binding<datalist><option>css=div.cg-notify-message.ng-scope.notification--success.cg-notify-message-center &gt; div.ng-binding</option><option>//body/div[3]/div</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Upload-Video-from-Movi</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://demo-july-sprint.movielearningv4.app.keetup.com/groups/318/activity<datalist><option>http://demo-july-sprint.movielearningv4.app.keetup.com/groups/318/activity</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//a[contains(text(),'Videos')])[2]<datalist><option>xpath=(//a[contains(text(),'Videos')])[2]</option><option>//div[@id='main']/div[2]/div[2]/div/a[3]</option><option>//div[2]/div[2]/div/a[3]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>css=span.text.ng-binding.ng-scope<datalist><option>css=span.text.ng-binding.ng-scope</option><option>//div[@id='main']/div[3]/div/div[3]/h2/div/span[2]</option><option>//h2/div/span[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Add from MovieLearning<datalist><option>link=Add from MovieLearning</option><option>//a[contains(text(),'Add from MovieLearning')]</option><option>//div[@id='main']/div[3]/div/div[3]/h2/div/div/a[2]</option><option>//h2/div/div/a[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>runScript</td><td>window.scrollTo(0,0)<datalist><option>window.scrollTo(0,0)</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>css=div.btn-round-list-item.fa.fa-icon.fa-plus<datalist><option>css=div.btn-round-list-item.fa.fa-icon.fa-plus</option><option>//div[3]/div</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>css=span.modal-close-x<datalist><option>css=span.modal-close-x</option><option>//span</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

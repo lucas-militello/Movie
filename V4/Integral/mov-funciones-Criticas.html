@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>mov-funciones-Criticas</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">login</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://courses.movielearningv4.app.keetup.com/discover<datalist><option>http://courses.movielearningv4.app.keetup.com/discover</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Sign in or Sign up<datalist><option>link=Sign in or Sign up</option><option>//a[contains(text(),'Sign in or Sign up')]</option><option>//div[@id='root']/div/nav/a</option><option>//nav/a</option><option>css=a.navigation-text-link.navigation-text-link-login.ng-binding.ng-scope</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=email<datalist><option>name=email</option><option>//input[@name='email']</option><option>//input</option><option>css=input[name="email"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=email<datalist><option>name=email</option><option>//input[@name='email']</option><option>//input</option><option>css=input[name="email"]</option></datalist></td><td>lmilitello+l</td>
+</tr>
+<tr><td>type</td><td>name=email<datalist><option>name=email</option><option>//input[@name='email']</option><option>//input</option><option>css=input[name="email"]</option></datalist></td><td>lmilitello+l@keetup.com</td>
+</tr>
+<tr><td>click</td><td>name=password<datalist><option>name=password</option><option>//input[@name='password']</option><option>//div[2]/input</option><option>css=input[name="password"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=password<datalist><option>name=password</option><option>//input[@name='password']</option><option>//div[2]/input</option><option>css=input[name="password"]</option></datalist></td><td>crimin9U</td>
+</tr>
+<tr><td>click</td><td>//button[@type='submit']<datalist><option>//button[@type='submit']</option><option>//button</option><option>css=button.button.button--user-account-base</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Video</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://courses.movielearningv4.app.keetup.com/videos<datalist><option>http://courses.movielearningv4.app.keetup.com/videos</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='main']/div/div[2]/div[2]/div/div[2]<datalist><option>//div[@id='main']/div/div[2]/div[2]/div/div[2]</option><option>//div[2]/div[2]/div/div[2]</option><option>css=div.block-header</option></datalist></td><td></td>
+</tr>
+<tr><td>clickAndWait</td><td>//vg-overlay-play/div/div<datalist><option>//vg-overlay-play/div/div</option><option>css=div.iconButton.play</option></datalist></td><td>500000</td>
+</tr>
+<tr><td>click</td><td>//vg-overlay-play/div/div<datalist><option>//vg-overlay-play/div/div</option><option>css=div.iconButton</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//textarea[@type='text']<datalist><option>//textarea[@type='text']</option><option>//div[@id='videoCommentsBlock']/div/div[2]/div/textarea</option><option>//textarea</option><option>css=textarea.ng-pristine.ng-untouched.ng-valid.ng-empty</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>//textarea[@type='text']<datalist><option>//textarea[@type='text']</option><option>//div[@id='videoCommentsBlock']/div/div[2]/div/textarea</option><option>//textarea</option><option>css=textarea.ng-untouched.ng-valid.ng-not-empty.ng-dirty.ng-valid-parse</option></datalist></td><td>comment automatic test</td>
+</tr>
+<tr><td>click</td><td>//div[@id='videoCommentsBlock']/div/div[2]/div/div/button<datalist><option>//div[@id='videoCommentsBlock']/div/div[2]/div/div/button</option><option>//div/button</option><option>css=button.button.button--confirm-light</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//span[2]<datalist><option>//span[2]</option><option>css=span.user-rating.ng-binding.ng-scope</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[2]/span[3]<datalist><option>//div[2]/span[3]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div/div/div/div/div/div<datalist><option>//div/div/div/div/div/div</option><option>css=div.video-close-button.button.button--inverse.ng-binding.ng-scope</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">upload-Video-in progress</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://courses.movielearningv4.app.keetup.com/videos<datalist><option>http://courses.movielearningv4.app.keetup.com/videos</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='root']/div/nav/div[3]/div[2]/span<datalist><option>//div[@id='root']/div/nav/div[3]/div[2]/span</option><option>//div[2]/span</option><option>css=span.svg-icon.svg-icon-plus</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Nieuwe video<datalist><option>link=Nieuwe video</option><option>//a[contains(text(),'Nieuwe video')]</option><option>//div[@id='root']/div/nav/div[3]/div[2]/div/a</option><option>xpath=(//a[contains(@href, '')])[36]</option><option>//div[2]/div/a</option><option>css=div.btn-navbar-circle.pull-left.right-end-dropdown-container.ng-scope.has-dropdown.open &gt; div.dropdown.dropdown--light &gt; a.dropdown-common-item.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[2]/div/div/div<datalist><option>//div[2]/div/div/div</option><option>css=div.button.button--confirm.nm-left.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>//input[@type='file']<datalist><option>//input[@type='file']</option><option>//label/input</option><option>css=input[type="file"]</option></datalist></td><td>C:\fakepath\Embers - 8625.mp4</td>
+</tr>
+<tr><td>click</td><td>id=clip-title<datalist><option>id=clip-title</option><option>name=clip-title</option><option>//input[@id='clip-title']</option><option>//input</option><option>css=#clip-title</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=clip-title<datalist><option>id=clip-title</option><option>name=clip-title</option><option>//input[@id='clip-title']</option><option>//input</option><option>css=#clip-title</option></datalist></td><td>fire</td>
+</tr>
+<tr><td>click</td><td>id=clip-description<datalist><option>id=clip-description</option><option>name=clip-description</option><option>//textarea[@id='clip-description']</option><option>//textarea</option><option>css=#clip-description</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=clip-description<datalist><option>id=clip-description</option><option>name=clip-description</option><option>//textarea[@id='clip-description']</option><option>//textarea</option><option>css=#clip-description</option></datalist></td><td>the automatic upload video in test integral</td>
+</tr>
+<tr><td>click</td><td>//div[4]/div/div<datalist><option>//div[4]/div/div</option><option>css=div.btn.btn-primary.btn-film.ng-pristine.ng-untouched.ng-valid.ng-binding.ng-empty</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//input[@type='text'])[2]<datalist><option>xpath=(//input[@type='text'])[2]</option><option>//div[5]/div/input</option><option>css=input.ng-pristine.ng-untouched.ng-valid.ng-empty</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>xpath=(//input[@type='text'])[2]<datalist><option>xpath=(//input[@type='text'])[2]</option><option>//div[5]/div/input</option><option>css=input.ng-untouched.ng-valid.ng-dirty.ng-valid-parse.ng-not-empty</option></datalist></td><td>fire</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">create-Course</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://courses.movielearningv4.app.keetup.com/videos<datalist><option>http://courses.movielearningv4.app.keetup.com/videos</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='root']/div/nav/div[3]/div[2]/span<datalist><option>//div[@id='root']/div/nav/div[3]/div[2]/span</option><option>//div[2]/span</option><option>css=span.svg-icon.svg-icon-plus</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Create a course<datalist><option>link=Create a course</option><option>//a[contains(text(),'Create a course')]</option><option>//div[@id='root']/div/nav/div[3]/div[2]/div/a[2]</option><option>xpath=(//a[contains(@href, '')])[37]</option><option>//div[2]/div/a[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=clip-title<datalist><option>id=clip-title</option><option>name=name</option><option>//input[@id='clip-title']</option><option>//input</option><option>css=#clip-title</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=clip-title<datalist><option>id=clip-title</option><option>name=name</option><option>//input[@id='clip-title']</option><option>//input</option><option>css=#clip-title</option></datalist></td><td>Durazno Automatico</td>
+</tr>
+<tr><td>clickAndWait</td><td>//div[4]/label/div<datalist><option>//div[4]/label/div</option><option>css=div.button.button--confirm-light.right.nm.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='about']/div[2]/div<datalist><option>//div[@id='about']/div[2]/div</option><option>//div[5]/div[2]/div</option><option>css=div.course-ck-editor.ckeditor-container.ng-binding.ng-pristine.ng-untouched.ng-valid.ng-scope.ng-isolate-scope.ng-empty</option></datalist></td><td></td>
+</tr>
+<tr><td>selectFrame</td><td>index=0<datalist><option>index=0</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//p<datalist><option>//p</option><option>css=p</option></datalist></td><td></td>
+</tr>
+<tr><td>selectFrame</td><td>relative=parent<datalist><option>relative=parent</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=main<datalist><option>id=main</option><option>//div[@id='main']</option><option>//div[@id='root']/div[2]</option><option>//body/div/div[2]</option><option>css=#main</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='list-content-limit-scroll-gg']/div[8]/span<datalist><option>//div[@id='list-content-limit-scroll-gg']/div[8]/span</option><option>//div[8]/span</option><option>css=span.btn-text.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=chapter<datalist><option>name=chapter</option><option>//input[@name='chapter']</option><option>//div[@id='chapter']/div/div/div/form/h3/span/span[2]/span/input</option><option>//span/input</option><option>css=input[name="chapter"]</option></datalist></td><td>Chapter Automatico</td>
+</tr>
+<tr><td>click</td><td>//div[@id='chapter']/div/div/div/form/span/span/textarea<datalist><option>//div[@id='chapter']/div/div/div/form/span/span/textarea</option><option>//textarea</option><option>css=textarea.editable-input.ng-pristine.ng-untouched.ng-valid.ng-empty</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>//div[@id='chapter']/div/div/div/form/span/span/textarea<datalist><option>//div[@id='chapter']/div/div/div/form/span/span/textarea</option><option>//textarea</option><option>css=textarea.editable-input.ng-untouched.ng-valid.ng-not-empty.ng-dirty.ng-valid-parse</option></datalist></td><td>esto es todo automatico gracias a katalon</td>
+</tr>
+<tr><td>click</td><td>//button[@type='submit']<datalist><option>//button[@type='submit']</option><option>//div[@id='chapter']/div/div/div/form/div[2]/button</option><option>//button</option><option>css=button.button.button--success.nm</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Gebruik een video van MovieLearning<datalist><option>link=Gebruik een video van MovieLearning</option><option>//a[contains(text(),'Gebruik een video van MovieLearning')]</option><option>//div[@id='chapter133']/div/div/div[3]/div/div[2]/a</option><option>//div/div[3]/div/div[2]/a</option><option>css=div.dropdown.dropdown--light.dropdown--neutral &gt; a.dropdown-common-item.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[3]/div<datalist><option>//div[3]/div</option><option>css=div.btn-round-list-item.fa.fa-icon.fa-plus</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='main']/div[2]/div/div[2]/div[2]/div[2]/span<datalist><option>//div[@id='main']/div[2]/div/div[2]/div[2]/div[2]/span</option><option>//div[2]/div[2]/span</option><option>css=div.button.button--confirm-light.pull-left &gt; span.ng-binding.ng-scope</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">logout</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://courses.movielearningv4.app.keetup.com/courses/332<datalist><option>http://courses.movielearningv4.app.keetup.com/courses/332</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='root']/div/nav/div[3]/div[4]/div/div<datalist><option>//div[@id='root']/div/nav/div[3]/div[4]/div/div</option><option>//div[4]/div/div</option><option>css=div.user-avatar.rounded-list-icon.navigation-profile-avatar.pull-left</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Uitloggen<datalist><option>link=Uitloggen</option><option>//a[contains(text(),'Uitloggen')]</option><option>//div[@id='root']/div/nav/div[3]/div[4]/div[2]/a[2]</option><option>//a[contains(@href, 'logout')]</option><option>//div[4]/div[2]/a[2]</option><option>css=a.dropdown-common-item.logout-button.ng-binding</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Admin-Login</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://courses.movielearningv4.app.keetup.com/discover<datalist><option>http://courses.movielearningv4.app.keetup.com/discover</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Sign in or Sign up<datalist><option>link=Sign in or Sign up</option><option>//a[contains(text(),'Sign in or Sign up')]</option><option>//div[@id='root']/div/nav/a</option><option>//nav/a</option><option>css=a.navigation-text-link.navigation-text-link-login.ng-binding.ng-scope</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=email<datalist><option>name=email</option><option>//input[@name='email']</option><option>//input</option><option>css=input[name="email"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=email<datalist><option>name=email</option><option>//input[@name='email']</option><option>//input</option><option>css=input[name="email"]</option></datalist></td><td>socialadmin@keetup.com</td>
+</tr>
+<tr><td>type</td><td>name=password<datalist><option>name=password</option><option>//input[@name='password']</option><option>//div[2]/input</option><option>css=input[name="password"]</option></datalist></td><td>crimin9U</td>
+</tr>
+<tr><td>clickAndWait</td><td>//button[@type='submit']<datalist><option>//button[@type='submit']</option><option>//button</option><option>css=button.button.button--user-account-base</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Admin-adminpanel</td></tr>
+</thead>
+<tbody>
+<tr><td>click</td><td>//div[@id='root']/div/nav/div/div/div/div/span<datalist><option>//div[@id='root']/div/nav/div/div/div/div/span</option><option>//span</option><option>css=span.fa.fa-bars</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyText</td><td>//div[@id='root']/div/nav/div/div/div[2]/a/span[2]<datalist><option>//div[@id='root']/div/nav/div/div/div[2]/a/span[2]</option><option>//span[2]</option><option>css=span.organization-name.ng-binding</option></datalist></td><td>MovieLearning Admin</td>
+</tr>
+<tr><td>click</td><td>//div[@id='root']/div/nav/div/div/div[2]/a/span[2]<datalist><option>//div[@id='root']/div/nav/div/div/div[2]/a/span[2]</option><option>//span[2]</option><option>css=span.organization-name.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='main']/div/div/div[2]/white-sub-header-button/div<datalist><option>//div[@id='main']/div/div/div[2]/white-sub-header-button/div</option><option>//white-sub-header-button/div</option><option>css=div.button.button--confirm-light.nm.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=name<datalist><option>id=name</option><option>name=name</option><option>//input[@id='name']</option><option>//input</option><option>css=#name</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=name<datalist><option>id=name</option><option>name=name</option><option>//input[@id='name']</option><option>//input</option><option>css=#name</option></datalist></td><td>Limon automatico 2</td>
+</tr>
+<tr><td>click</td><td>id=description<datalist><option>id=description</option><option>name=description</option><option>//textarea[@id='description']</option><option>//textarea</option><option>css=#description</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=description<datalist><option>id=description</option><option>name=description</option><option>//textarea[@id='description']</option><option>//textarea</option><option>css=#description</option></datalist></td><td>Test integral automatico</td>
+</tr>
+<tr><td>click</td><td>//button<datalist><option>//button</option><option>css=button.button.button--confirm-light.right.nm.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>waitForPageToLoad</td><td><datalist><option></option></datalist></td><td>36000</td>
+</tr>
+<tr><td>click</td><td>//form[@id='organizationSettingsForm']/div[4]/label[2]/div<datalist><option>//form[@id='organizationSettingsForm']/div[4]/label[2]/div</option><option>//label[2]/div</option><option>css=div.fancy-graphic</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[@type='submit']<datalist><option>//button[@type='submit']</option><option>//div[@id='main']/div[2]/div/div/div/div[2]/white-sub-header-button/button</option><option>//button</option><option>css=button.button.button--success.nm-bottom</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='main']/div[2]/div/div[3]/div[2]/div/div/button<datalist><option>//div[@id='main']/div[2]/div/div[3]/div[2]/div/div/button</option><option>//div/button</option><option>css=button.button.button-block.full-width.ng-pristine.ng-untouched.ng-valid.ng-binding.ng-empty.button--confirm-light</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>//input[@type='file']<datalist><option>//input[@type='file']</option><option>//body/label/input</option><option>css=input[type="file"]</option></datalist></td><td>C:\fakepath\sunset-472981_1920.jpg</td>
+</tr>
+<tr><td>click</td><td>//div[@id='main']/div[2]/div/div[3]/div[2]/div/div[2]/button<datalist><option>//div[@id='main']/div[2]/div/div[3]/div[2]/div/div[2]/button</option><option>//div[2]/button</option><option>css=button.button.button-block.full-width.ng-pristine.ng-untouched.ng-valid.ng-binding.ng-empty.button--confirm-light</option></datalist></td><td></td>
+</tr>
+<tr><td>store</td><td>foto<datalist><option>foto</option></datalist></td><td>/Users/development/Documents/Multimedia/ImgMov/nature-2578114_1920.jpg</td>
+</tr>
+<tr><td>type</td><td>css=input[type=&amp;quot;file&amp;quot;]<datalist><option>xpath=(//input[@type='file'])[2]</option><option>//body/label[2]/input</option><option>css=input[type="file"]</option><option>css=input[type="file"]</option></datalist></td><td>${foto}</td>
+</tr>
+<tr><td>click</td><td>name=name<datalist><option>name=name</option><option>//input[@name='name']</option><option>//form[@id='organizationSettingsForm']/div/input</option><option>//form/div/input</option><option>css=input[name="name"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=name<datalist><option>name=name</option><option>//input[@name='name']</option><option>//form[@id='organizationSettingsForm']/div/input</option><option>//form/div/input</option><option>css=input[name="name"]</option></datalist></td><td>Limon automatico + is edit</td>
+</tr>
+<tr><td>click</td><td>//button[@type='submit']<datalist><option>//button[@type='submit']</option><option>//div[@id='main']/div[2]/div/div/div/div[2]/white-sub-header-button/button</option><option>//button</option><option>css=button.button.button--success.nm-bottom</option></datalist></td><td></td>
+</tr>
+<tr><td>waitForTextPresent</td><td>//body/div[3]/div<datalist><option>//body/div[3]/div</option><option>css=div.cg-notify-message.ng-scope.notification--success.cg-notify-message-center &gt; div.ng-binding</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

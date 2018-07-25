@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>Usuario normal</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">login</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://courses.movielearning.com/discover<datalist><option>https://courses.movielearning.com/discover</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Sign in or Sign up<datalist><option>link=Sign in or Sign up</option><option>//a[contains(text(),'Sign in or Sign up')]</option><option>//div[@id='root']/div/nav/a</option><option>//nav/a</option><option>css=a.navigation-text-link.navigation-text-link-login.ng-binding.ng-scope</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=email<datalist><option>name=email</option><option>//input[@name='email']</option><option>//input</option><option>css=input[name="email"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=email<datalist><option>name=email</option><option>//input[@name='email']</option><option>//input</option><option>css=input[name="email"]</option></datalist></td><td>lmilitello+trent@keetup.com</td>
+</tr>
+<tr><td>click</td><td>name=password<datalist><option>name=password</option><option>//input[@name='password']</option><option>//div[2]/input</option><option>css=input[name="password"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=password<datalist><option>name=password</option><option>//input[@name='password']</option><option>//div[2]/input</option><option>css=input[name="password"]</option></datalist></td><td>crimin9U</td>
+</tr>
+<tr><td>click</td><td>//button[@type='submit']<datalist><option>//button[@type='submit']</option><option>//button</option><option>css=button.button.button--user-account-base</option></datalist></td><td></td>
+</tr>
+<tr><td>waitForPageToLoad</td><td>50000<datalist><option>50000</option></datalist></td><td>50000</td>
+</tr>
+<tr><td>waitForElementPresent</td><td>//div[@id='root']/div/nav/div/div/div/div/span<datalist><option>//div[@id='root']/div/nav/div/div/div/div/span</option><option>//span</option><option>css=span.fa.fa-bars</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='root']/div/nav/div[2]/div/span<datalist><option>//div[@id='root']/div/nav/div[2]/div/span</option><option>//div[2]/div/span</option><option>css=span.text-bold</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyText</td><td>//div[@id='root']/div/nav/div/div/div[2]/a/span[2]<datalist><option>//div[@id='root']/div/nav/div/div/div[2]/a/span[2]</option><option>//span[2]</option><option>css=span.organization-name.ng-binding</option></datalist></td><td>MovieLearning Admin</td>
+</tr>
+<tr><td>click</td><td>//div[@id='root']/div/nav/div/div/div[2]/a[3]<datalist><option>//div[@id='root']/div/nav/div/div/div[2]/a[3]</option><option>//a[3]</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">buy-course</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://test2.movielearning.com/discover<datalist><option>https://test2.movielearning.com/discover</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='root']/div/nav/div[2]/span/span<datalist><option>//div[@id='root']/div/nav/div[2]/span/span</option><option>//div[2]/span/span</option><option>css=span.navigation-text-link.ng-scope.has-dropdown &gt; span.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//a[contains(text(),'Courses')]<datalist><option>//a[contains(text(),'Courses')]</option><option>//div[@id='root']/div/nav/div[2]/span/span[2]/a</option><option>//a[contains(@href, '/courses')]</option><option>//span[2]/a</option><option>css=a.dropdown-common-item.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//input[@type='text'])[2]<datalist><option>xpath=(//input[@type='text'])[2]</option><option>//div[@id='main']/div[2]/div/input</option><option>//div[2]/div[2]/div/input</option><option>css=input.form-control.np-left.ng-pristine.ng-untouched.ng-valid.ng-scope.ng-empty</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>xpath=(//input[@type='text'])[2]<datalist><option>xpath=(//input[@type='text'])[2]</option><option>//div[@id='main']/div[2]/div/input</option><option>//div[2]/div[2]/div/input</option><option>css=input.form-control.np-left.ng-untouched.ng-valid.ng-scope.ng-not-empty.ng-dirty.ng-valid-parse</option></datalist></td><td>Carolina in</td>
+</tr>
+<tr><td>click</td><td>//div[@id='main']/div[2]/div[2]/div[3]/div/div[2]<datalist><option>//div[@id='main']/div[2]/div[2]/div[3]/div/div[2]</option><option>//div[2]/div[2]/div[3]/div/div[2]</option><option>css=div.block-header</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='main']/div[2]/div/h1/div<datalist><option>//div[@id='main']/div[2]/div/h1/div</option><option>//h1/div</option><option>css=div.ng-binding.ng-scope</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Buy this course<datalist><option>link=Buy this course</option><option>//a[contains(text(),'Buy this course')]</option><option>//div[@id='main']/div[2]/div[2]/div/div/div/a</option><option>//div[2]/div/div/div/a</option><option>css=a.button.button--confirm-light.pull-left.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//body/div/div/div/div/div/div[4]/div<datalist><option>//body/div/div/div/div/div/div[4]/div</option><option>css=div.button.button--confirm-light.button-centered-big.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//input[@type='text']<datalist><option>//input[@type='text']</option><option>//div/input</option><option>css=input.full-width.ng-pristine.ng-untouched.ng-valid.ng-empty</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>//input[@type='text']<datalist><option>//input[@type='text']</option><option>//div/input</option><option>css=input.full-width.ng-untouched.ng-valid.ng-not-empty.ng-dirty.ng-valid-parse</option></datalist></td><td>test</td>
+</tr>
+<tr><td>click</td><td>xpath=(//input[@type='text'])[2]<datalist><option>xpath=(//input[@type='text'])[2]</option><option>//div[2]/div/input</option><option>css=input.full-width.ng-pristine.ng-untouched.ng-valid.ng-empty</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>xpath=(//input[@type='text'])[2]<datalist><option>xpath=(//input[@type='text'])[2]</option><option>//div[2]/div/input</option><option>css=input.full-width.ng-untouched.ng-valid.ng-not-empty.ng-dirty.ng-valid-parse</option></datalist></td><td>last</td>
+</tr>
+<tr><td>click</td><td>//body/div/div/div/div/div/label/div<datalist><option>//body/div/div/div/div/div/label/div</option><option>css=label.fancy-radio-checkbox.p-conditions-agreed.ng-binding.ng-scope &gt; div.fancy-graphic</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button<datalist><option>//button</option><option>css=button.button.button--confirm-light.button-centered-big.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//button[@name='issuer'])[2]<datalist><option>xpath=(//button[@name='issuer'])[2]</option><option>//form[@id='body']/ul/li[2]/button</option><option>//li[2]/button</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//form[@id='body']/table/tbody/tr[4]/td/div/label/span<datalist><option>//form[@id='body']/table/tbody/tr[4]/td/div/label/span</option><option>//label/span</option><option>css=label &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='footer']/button<datalist><option>//div[@id='footer']/button</option><option>//button</option><option>css=button.button</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">create-courses</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://test2.movielearning.com/discover<datalist><option>https://test2.movielearning.com/discover</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='root']/div/nav/div[2]/span/span<datalist><option>//div[@id='root']/div/nav/div[2]/span/span</option><option>//div[2]/span/span</option><option>css=span.navigation-text-link.ng-scope.has-dropdown &gt; span.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//a[contains(text(),'Courses')]<datalist><option>//a[contains(text(),'Courses')]</option><option>//div[@id='root']/div/nav/div[2]/span/span[2]/a</option><option>//a[contains(@href, '/courses')]</option><option>//span[2]/a</option><option>css=a.dropdown-common-item.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='main']/div/div/div[2]/div[2]/div<datalist><option>//div[@id='main']/div/div/div[2]/div[2]/div</option><option>//div[2]/div[2]/div</option><option>css=div.button.button--confirm-light.pull-right.ng-binding.ng-scope</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=clip-title<datalist><option>id=clip-title</option><option>name=name</option><option>//input[@id='clip-title']</option><option>//input</option><option>css=#clip-title</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=clip-title<datalist><option>id=clip-title</option><option>name=name</option><option>//input[@id='clip-title']</option><option>//input</option><option>css=#clip-title</option></datalist></td><td>Paratrooper</td>
+</tr>
+<tr><td>click</td><td>//select<datalist><option>//select</option><option>css=select.pure-input-1-3.ng-pristine.ng-untouched.ng-valid.ng-not-empty</option></datalist></td><td></td>
+</tr>
+<tr><td>select</td><td>//select<datalist><option>//select</option><option>css=select.pure-input-1-3.ng-untouched.ng-valid.ng-not-empty.ng-dirty.ng-valid-parse</option></datalist></td><td>label=English</td>
+</tr>
+<tr><td>click</td><td>//option[@value='en']<datalist><option>//option[@value='en']</option><option>//option[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[4]/label/div<datalist><option>//div[4]/label/div</option><option>css=div.button.button--confirm-light.right.nm.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='list-content-limit-scroll-gg']/div[8]/span<datalist><option>//div[@id='list-content-limit-scroll-gg']/div[8]/span</option><option>//div[8]/span</option><option>css=span.btn-text.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=chapter<datalist><option>name=chapter</option><option>//input[@name='chapter']</option><option>//div[@id='chapter']/div/div/div/form/h3/span/span[2]/span/input</option><option>//span/input</option><option>css=input[name="chapter"]</option></datalist></td><td>fly</td>
+</tr>
+<tr><td>click</td><td>//div[@id='chapter']/div/div/div/form/span/span/textarea<datalist><option>//div[@id='chapter']/div/div/div/form/span/span/textarea</option><option>//textarea</option><option>css=textarea.editable-input.ng-pristine.ng-untouched.ng-valid.ng-empty</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>//div[@id='chapter']/div/div/div/form/span/span/textarea<datalist><option>//div[@id='chapter']/div/div/div/form/span/span/textarea</option><option>//textarea</option><option>css=textarea.editable-input.ng-untouched.ng-valid.ng-not-empty.ng-dirty.ng-valid-parse</option></datalist></td><td>the art of down</td>
+</tr>
+<tr><td>click</td><td>//button[@type='submit']<datalist><option>//button[@type='submit']</option><option>//div[@id='chapter']/div/div/div/form/div[2]/button</option><option>//button</option><option>css=button.button.button--success.nm</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@class='btn-text ng-binding']/div/div[2]/div/div/span[2]<datalist><option>//div[@id='chapter200']/div/div[2]/div/div/span[2]</option><option>//div[7]/div/div/div[2]/div/div/span[2]</option><option>css=div.the-btn &gt; span.the-text.ng-binding</option><option>//div[@class='btn-text ng-binding']/div/div[2]/div/div/span[2]</option></datalist></td><td>+ Add new chapter</td>
+</tr>
+<tr><td>type</td><td>name=name<datalist><option>name=name</option><option>//input[@name='name']</option><option>//div[@id='section']/div/div/div/form/h3/span/span[2]/span/input</option><option>//span/input</option><option>css=input[name="name"]</option></datalist></td><td>armament</td>
+</tr>
+<tr><td>submit</td><td>name=newSectionForm<datalist><option>name=newSectionForm</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='section']/div/div/div<datalist><option>//div[@id='section']/div/div/div</option><option>//div[7]/div/div/div[2]/div/div/div/div</option><option>css=#section &gt; div.course-add-chapter-base-template.ng-isolate-scope &gt; div.course-add-chapter-base-template-main &gt; div.course-add-chapter-base-template-content.block.block-body</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='section204']/div/div/div[3]/div/div<datalist><option>//div[@id='section204']/div/div/div[3]/div/div</option><option>//div[7]/div/div/div[2]/div/div/div/div[3]/div/div</option><option>css=#section204 &gt; div.course-add-chapter-base-template.ng-isolate-scope &gt; div.course-add-chapter-base-template-main &gt; div.course-add-chapter-base-template-controls.clearfix.ng-scope.ng-isolate-scope &gt; div.course-add-chapter-base-template-control-btn.control-btn-video.pull-left.has-dropdown &gt; div.the-text.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//a[contains(text(),'Add  video from MovieLearning')])[2]<datalist><option>xpath=(//a[contains(text(),'Add  video from MovieLearning')])[2]</option><option>//div[@id='section204']/div/div/div[3]/div/div[2]/a</option><option>//div[2]/div/div/div/div[3]/div/div[2]/a</option><option>css=div.course-add-chapter-base-template-control-btn.control-btn-video.pull-left.has-dropdown.open &gt; div.dropdown.dropdown--light.dropdown--neutral &gt; a.dropdown-common-item.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[3]/div<datalist><option>//div[3]/div</option><option>css=div.btn-round-list-item.fa.fa-icon.fa-plus</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='main']/div[2]/div/div[2]/div[2]/div[2]<datalist><option>//div[@id='main']/div[2]/div/div[2]/div[2]/div[2]</option><option>//div[2]/div[2]/div[2]</option><option>css=div.button.button--confirm-light.pull-left</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">create-playlist</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://test2.movielearning.com/discover<datalist><option>https://test2.movielearning.com/discover</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='root']/div/nav/div[2]/span/span<datalist><option>//div[@id='root']/div/nav/div[2]/span/span</option><option>//div[2]/span/span</option><option>css=span.navigation-text-link.ng-scope.has-dropdown &gt; span.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Playlists<datalist><option>link=Playlists</option><option>//a[contains(text(),'Playlists')]</option><option>//div[@id='root']/div/nav/div[2]/span/span[2]/a[2]</option><option>//a[contains(@href, '/collections')]</option><option>//span[2]/a[2]</option><option>css=a.dropdown-common-item.ng-binding.ng-scope</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='main']/div/div/div[2]/div[2]/div<datalist><option>//div[@id='main']/div/div/div[2]/div[2]/div</option><option>//div[2]/div[2]/div</option><option>css=div.button.button--confirm-light.pull-right.ng-binding.ng-scope</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=clip-title<datalist><option>id=clip-title</option><option>//input[@id='clip-title']</option><option>//input</option><option>css=#clip-title</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=clip-title<datalist><option>id=clip-title</option><option>//input[@id='clip-title']</option><option>//input</option><option>css=#clip-title</option></datalist></td><td>Otra Vez</td>
+</tr>
+<tr><td>click</td><td>//div[3]/div<datalist><option>//div[3]/div</option><option>css=div.button.button--confirm-light.right.nm.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Add video(s)<datalist><option>link=Add video(s)</option><option>//a[contains(text(),'Add video(s)')]</option><option>//div[@id='about']/div[3]/a</option><option>xpath=(//a[contains(@href, '')])[22]</option><option>//div[3]/a</option><option>css=div.block--actions.nm.ng-scope &gt; a.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[3]/div<datalist><option>//div[3]/div</option><option>css=div.btn-round-list-item.fa.fa-icon.fa-plus</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[3]/div<datalist><option>//div[3]/div</option><option>css=div.btn-round-list-item.fa.fa-icon.fa-plus</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//span<datalist><option>//span</option><option>css=span.modal-close-x</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='main']/div[2]/div/div[2]/div[2]/div/span<datalist><option>//div[@id='main']/div[2]/div/div[2]/div[2]/div/span</option><option>//div[2]/div[2]/div/span</option><option>css=div.button.button--confirm-light.pull-left &gt; span.ng-binding.ng-scope</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">create-group</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://test2.movielearning.com/discover<datalist><option>https://test2.movielearning.com/discover</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Groups<datalist><option>link=Groups</option><option>//a[contains(text(),'Groups')]</option><option>//div[@id='root']/div/nav/div[2]/a[2]</option><option>//a[contains(@href, '/groups')]</option><option>//nav/div[2]/a[2]</option><option>css=a.navigation-text-link.ng-binding.ng-scope</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='main']/div/div/div[2]/div[2]/div<datalist><option>//div[@id='main']/div/div/div[2]/div[2]/div</option><option>//div[2]/div[2]/div</option><option>css=div.button.button--confirm-light.pull-right.ng-binding.ng-scope</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=name<datalist><option>name=name</option><option>//input[@name='name']</option><option>//form[@id='createGroupFormId']/div/input</option><option>//input</option><option>css=input[name="name"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=name<datalist><option>name=name</option><option>//input[@name='name']</option><option>//form[@id='createGroupFormId']/div/input</option><option>//input</option><option>css=input[name="name"]</option></datalist></td><td>La Maquina de picar carne</td>
+</tr>
+<tr><td>click</td><td>//form[@id='createGroupFormId']/div[3]/label[2]<datalist><option>//form[@id='createGroupFormId']/div[3]/label[2]</option><option>//div[3]/label[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[@type='submit']<datalist><option>//button[@type='submit']</option><option>//form[@id='createGroupFormId']/div[5]/button</option><option>//button</option><option>css=button.button.button--confirm-light.right.nm</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Conversations<datalist><option>link=Conversations</option><option>//a[contains(text(),'Conversations')]</option><option>//div[@id='main']/div[2]/div[2]/div/a[2]</option><option>//div[2]/div[2]/div/a[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='main']/div[3]/div/div[2]/h2/div/span[2]<datalist><option>//div[@id='main']/div[3]/div/div[2]/h2/div/span[2]</option><option>//h2/div/span[2]</option><option>css=span.text.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=title<datalist><option>name=title</option><option>//input[@name='title']</option><option>//form[@id='createConversationFormId']/div/input</option><option>//input</option><option>css=input[name="title"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=title<datalist><option>name=title</option><option>//input[@name='title']</option><option>//form[@id='createConversationFormId']/div/input</option><option>//input</option><option>css=input[name="title"]</option></datalist></td><td>ahora si</td>
+</tr>
+<tr><td>click</td><td>//button[@type='submit']<datalist><option>//button[@type='submit']</option><option>//form[@id='createConversationFormId']/div[3]/button</option><option>//button</option><option>css=button.button.button--confirm-light.right.nm</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//span<datalist><option>//span</option><option>css=span.modal-close-x.ng-scope</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//a[contains(text(),'Videos')])[2]<datalist><option>xpath=(//a[contains(text(),'Videos')])[2]</option><option>//div[@id='main']/div[2]/div[2]/div/a[3]</option><option>//div[2]/div[2]/div/a[3]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='main']/div[3]/div/div[3]/h2/div/span[2]<datalist><option>//div[@id='main']/div[3]/div/div[3]/h2/div/span[2]</option><option>//div[3]/h2/div/span[2]</option><option>css=span.text.ng-binding.ng-scope</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Add from MovieLearning<datalist><option>link=Add from MovieLearning</option><option>//a[contains(text(),'Add from MovieLearning')]</option><option>//div[@id='main']/div[3]/div/div[3]/h2/div/div/a[2]</option><option>//h2/div/div/a[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[3]/div<datalist><option>//div[3]/div</option><option>css=div.btn-round-list-item.fa.fa-icon.fa-plus</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//span<datalist><option>//span</option><option>css=span.modal-close-x</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//a[contains(text(),'Playlists')])[2]<datalist><option>xpath=(//a[contains(text(),'Playlists')])[2]</option><option>//div[@id='main']/div[2]/div[2]/div/a[4]</option><option>//div[2]/div[2]/div/a[4]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='main']/div[3]/div/div[4]/h2/div/span[2]<datalist><option>//div[@id='main']/div[3]/div/div[4]/h2/div/span[2]</option><option>//div[4]/h2/div/span[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//a[contains(text(),'Add from MovieLearning')])[2]<datalist><option>xpath=(//a[contains(text(),'Add from MovieLearning')])[2]</option><option>//div[@id='main']/div[3]/div/div[4]/h2/div/div/a[2]</option><option>//div[4]/h2/div/div/a[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[3]/div<datalist><option>//div[3]/div</option><option>css=div.btn-round-list-item.fa.fa-icon.fa-plus</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Activity<datalist><option>link=Activity</option><option>//a[contains(text(),'Activity')]</option><option>//div[@id='main']/div[2]/div[2]/div/a</option><option>//div[2]/div[2]/div/a</option><option>css=div.tabs--anchors-clean &gt; a.ng-binding</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//input[@name='comment'])[3]<datalist><option>xpath=(//input[@name='comment'])[3]</option><option>xpath=(//form[@id='commentFormId']/div/input)[3]</option><option>//div[3]/div[3]/div[2]/form/div/input</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>xpath=(//input[@name='comment'])[3]<datalist><option>xpath=(//input[@name='comment'])[3]</option><option>xpath=(//form[@id='commentFormId']/div/input)[3]</option><option>//div[3]/div[3]/div[2]/form/div/input</option></datalist></td><td>comentario abajo de todo</td>
+</tr>
+<tr><td>click</td><td>xpath=(//button[@type='submit'])[3]<datalist><option>xpath=(//button[@type='submit'])[3]</option><option>xpath=(//form[@id='commentFormId']/div[2]/button)[3]</option><option>//div[3]/div[3]/div[2]/form/div[2]/button</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Conversations<datalist><option>link=Conversations</option><option>//a[contains(text(),'Conversations')]</option><option>//div[@id='main']/div[2]/div[2]/div/a[2]</option><option>//div[2]/div[2]/div/a[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Activity<datalist><option>link=Activity</option><option>//a[contains(text(),'Activity')]</option><option>//div[@id='main']/div[2]/div[2]/div/a</option><option>//div[2]/div[2]/div/a</option><option>css=div.tabs--anchors-clean &gt; a.ng-binding</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">logout</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://test2.movielearning.com/discover<datalist><option>https://test2.movielearning.com/discover</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='root']/div/nav/div[3]/div[4]/div/div<datalist><option>//div[@id='root']/div/nav/div[3]/div[4]/div/div</option><option>//div[4]/div/div</option><option>css=div.user-avatar.rounded-list-icon.navigation-profile-avatar.pull-left</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Logout<datalist><option>link=Logout</option><option>//a[contains(text(),'Logout')]</option><option>//div[@id='root']/div/nav/div[3]/div[4]/div[2]/a[2]</option><option>//a[contains(@href, 'logout')]</option><option>//div[4]/div[2]/a[2]</option><option>css=a.dropdown-common-item.logout-button.ng-binding</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
