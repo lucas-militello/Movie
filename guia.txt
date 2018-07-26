@@ -1,0 +1,11 @@
+Los test estan ordenados en dos carpetas "prod" (producción) y "V4" (desarrollo). Dentro de cada carpeta se encuentran los archivos propios para cada ambiente.
+
+En la carpeta V4 se encuentran dos carpetas "integral" y "funciones".
+
+Funciones: Dentro tiene las funciones básicas dentro de un grupo (entrar en un grupo, publicar un video, hacer un comentario, comentar arcitidad, etc)
+Integral: Se intenta crear un test con las funciones criticas del test integral. (Digo "se intenta" porque la parte de adjuntar archivos o comprar un curso esta sin terminar). Las funciones que se desarrollan son : Login, crear cursos públicos, tomar a un curso, crear una playlist y agregar vídeos ya existentes, crear un grupo.
+En la carpeta prod se encuentra:
+
+Funciones criticas: Se intenta crear un test con las funciones criticas del test integral. (Idem a las funciones en "integral" dentro de v4).
+Usuario normal: Se realizan los pasos de un usuario normal (login, tomar un curso, crear un curso, una playlist, un grupo).
+Nota: Algunas funciones no se realizan del mismo modo en producción como en desarrollo. En producción no se realiza el test de crear organizaciones, solo se prueba en la organización "Test2".
